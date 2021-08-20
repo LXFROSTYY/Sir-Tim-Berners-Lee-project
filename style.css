@@ -58,7 +58,7 @@ font-family: 'Lobster', cursive;
 
 #menu {
     list-style: none;
-    position: absolute;
+    position: fixed;
     top: 10px;
     z-index: 2;
     right: 30px;
@@ -75,4 +75,9 @@ font-family: 'Lobster', cursive;
     background-color: blanchedalmond;
     color: crimson;
 }
-
+a:hover{
+    color: mediumvioletred;
+}
+html{
+    scroll-behavior: smooth;
+}
